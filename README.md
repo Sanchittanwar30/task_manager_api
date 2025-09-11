@@ -1,6 +1,6 @@
 1. Clone the Repository
 
-git clone https://github.com/Sanchittanwar30/task_manager_app.git
+git clone https://github.com/Sanchittanwar30/task_manager_api.git
 
 cd task_manager_app
 
