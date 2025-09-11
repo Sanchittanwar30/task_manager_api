@@ -1,8 +1,11 @@
 1. Clone the Repository
-git clone 
+
+git clone https://github.com/Sanchittanwar30/task_manager_app.git
+
 cd task_manager_app
 
 2. Install dependencies:
+   
 npm install
 
 3. Start the server
@@ -14,8 +17,9 @@ EXAMPLE API REQUEST :
 
 1. Create a Task 
 REQUEST :   POST /tasks
-            
-            Content-Type: application/json
+
+ raw json:
+
  {
   "title": "Welcome to Task manager app",
   "description": "Building REST APIs",
@@ -23,12 +27,14 @@ REQUEST :   POST /tasks
 }
 
 RESPONSE : 
+
 {
     "id": 1,
     "title": "Welcome to Task manager app",
     "description": "Building REST APIs",
     "status": "pending",
     "createdAt": "2025-09-11T20:15:21.114Z"
+    
 }
 
 2. Get All Tasks 
@@ -37,6 +43,7 @@ REQUEST : GET /tasks
          
 
 RESPONSE : 
+
 {
     "page": 1,
     "limit": 1,
@@ -58,6 +65,7 @@ REQUEST : GET /tasks/1
           Host: localhost:3000
 
 RESPONSE : 
+
 {
     "id": 1,
     "title": "Welcome to Task manager app",
