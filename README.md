@@ -34,7 +34,6 @@ RESPONSE :
     "description": "Building REST APIs",
     "status": "pending",
     "createdAt": "2025-09-11T20:15:21.114Z"
-    
 }
 
 2. Get All Tasks 
