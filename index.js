@@ -23,7 +23,7 @@ app.get("/tasks", (req, res) => {
     result = result.filter((t) => t.status === req.query.status);
   }
 
-  // pagination
+  // pagination cmt : optimize 
   const page = parseInt(req.query.page) || 1;
   const limit = parseInt(req.query.limit) || result.length;
   const start = (page - 1) * limit;
